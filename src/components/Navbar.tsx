@@ -6,15 +6,15 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { name: "Trang chủ", href: "#home" },
-  { name: "Về chúng tôi", href: "#about" },
-  { name: "Thực đơn", href: "#menu" },
-  { name: "Tổ chức tiệc", href: "#banquet" },
-  { name: "Bộ sưu tập", href: "#gallery" },
-  { name: "Dịch vụ ăn uống", href: "#catering" },
-  { name: "Bộ dụng cụ (Kits)", href: "#kits" },
-  { name: "Lưu trữ tiệc", href: "#hosting" },
-  { name: "Liên hệ & Giờ mở cửa", href: "#contact" },
+  { name: "Home", href: "#home" },
+  { name: "About Us", href: "#about" },
+  { name: "Menu", href: "#menu" },
+  { name: "Banquet Facilities", href: "#banquet" },
+  { name: "Gallery", href: "#gallery" },
+  { name: "Catering", href: "#catering" },
+  { name: "Menu Kits", href: "#kits" },
+  { name: "Hosting", href: "#hosting" },
+  { name: "Contact & Hours", href: "#contact" },
 ];
 
 export function Navbar() {
@@ -61,7 +61,7 @@ export function Navbar() {
               href="#reservation" 
               className="bg-primary hover:bg-primary-dark text-dark-100 px-6 py-2.5 rounded-full text-sm font-bold uppercase tracking-wider transition-transform hover:scale-105 active:scale-95"
             >
-              Đặt chỗ
+              Reservation
             </a>
           </div>
 
@@ -108,7 +108,7 @@ export function Navbar() {
                    onClick={() => setIsOpen(false)}
                    className="block text-center bg-primary text-dark-100 py-4 rounded-xl font-bold uppercase tracking-wider"
                  >
-                   Đặt chỗ trực tuyến
+                   Book a Table
                  </a>
               </div>
             </div>

@@ -15,8 +15,8 @@ export function GallerySection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <FadeIn>
-            <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Khoảnh Khắc Đẹp</h4>
-            <h2 className="font-serif text-4xl md:text-5xl text-white">Phòng Trưng Bày</h2>
+            <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Beautiful Moments</h4>
+            <h2 className="font-serif text-4xl md:text-5xl text-white">Gallery</h2>
           </FadeIn>
         </div>
 
@@ -29,7 +29,7 @@ export function GallerySection() {
                   style={{ backgroundImage: `url(${img})` }} 
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <span className="text-white border border-white px-4 py-2 rounded-full backdrop-blur-sm">Xem Ảnh</span>
+                  <span className="text-white border border-white px-4 py-2 rounded-full backdrop-blur-sm">View Image</span>
                 </div>
               </div>
             </FadeIn>

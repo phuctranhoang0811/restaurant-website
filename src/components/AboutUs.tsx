@@ -26,7 +26,7 @@ export function AboutUs() {
           
           <div className="order-1 lg:order-2 space-y-8">
             <FadeIn>
-              <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold">Về Chúng Tôi</h4>
+              <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold">About Us</h4>
               <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-white mt-4 leading-tight">
                 A Legacy of <br/>Culinary Excellence
               </h2>

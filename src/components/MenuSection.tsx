@@ -15,8 +15,8 @@ export function MenuSection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <FadeIn>
-            <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Khám Phá Hương Vị</h4>
-            <h2 className="font-serif text-4xl md:text-5xl text-white">Thực Đơn (Menu)</h2>
+            <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Discover the Flavors</h4>
+            <h2 className="font-serif text-4xl md:text-5xl text-white">Our Menu</h2>
           </FadeIn>
         </div>
 
@@ -36,7 +36,7 @@ export function MenuSection() {
         
         <FadeIn delay={0.4} className="text-center mt-12">
            <button className="border border-primary text-primary hover:bg-primary hover:text-dark-100 px-8 py-3 rounded-full transition-colors font-medium">
-             Xem Toàn Bộ Thực Đơn
+             View Full Menu
            </button>
         </FadeIn>
       </div>

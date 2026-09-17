@@ -12,12 +12,12 @@ export function ServicesSection() {
           <FadeIn direction="right" className="bg-dark-100 p-10 rounded-3xl border border-dark-300 relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl" />
             <Package className="w-12 h-12 text-primary mb-6" />
-            <h3 id="kits" className="font-serif text-3xl text-white mb-4">Bộ Dụng Cụ Thực Đơn</h3>
+            <h3 id="kits" className="font-serif text-3xl text-white mb-4">Menu Kits</h3>
             <p className="text-gray-400 mb-8 line-clamp-3">
-              Trải nghiệm ẩm thực 5 sao ngay tại nhà với các bộ "Meal Kits" được chuẩn bị sẵn bởi đội ngũ đầu bếp của chúng tôi. Bao gồm nguyên liệu thượng hạng và video hướng dẫn chi tiết.
+              Experience 5-star dining right at home with our "Meal Kits" curated by our executive chefs. Includes premium ingredients and detailed video instructions.
             </p>
             <button className="text-white hover:text-primary transition-colors flex items-center gap-2 text-sm uppercase tracking-wider font-medium">
-              Khám phá ngay &rarr;
+              Discover now &rarr;
             </button>
           </FadeIn>
 
@@ -25,12 +25,12 @@ export function ServicesSection() {
           <FadeIn direction="left" delay={0.2} className="bg-dark-100 p-10 rounded-3xl border border-dark-300 relative overflow-hidden group">
              <div className="absolute top-0 left-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl" />
             <Globe className="w-12 h-12 text-primary mb-6" />
-            <h3 id="hosting" className="font-serif text-3xl text-white mb-4">Dịch Vụ Lưu Trữ Tiệc</h3>
+            <h3 id="hosting" className="font-serif text-3xl text-white mb-4">Hosting Services</h3>
             <p className="text-gray-400 mb-8 line-clamp-3">
-              Dành riêng cho các khách hàng V.I.P: Dịch vụ bảo quản và lưu trữ rượu vang cá nhân, xì gà, cũng như lên kế hoạch tổ chức tiệc định kỳ theo yêu cầu riêng biệt.
+              Exclusive for our V.I.P guests: Personalized wine and cigar storage services, as well as recurring bespoke event planning tailored to your unique preferences.
             </p>
             <button className="text-white hover:text-primary transition-colors flex items-center gap-2 text-sm uppercase tracking-wider font-medium">
-              Tìm hiểu thêm &rarr;
+              Learn more &rarr;
             </button>
           </FadeIn>
         </div>

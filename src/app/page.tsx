@@ -42,7 +42,7 @@ export default function Home() {
               Indulge in an extraordinary culinary journey where every detail is crafted to perfection, designed for the most discerning palates.
             </p>
             <button className="bg-primary hover:bg-primary-dark text-dark-100 px-10 py-4 rounded-full font-medium transition-all hover:scale-105 uppercase tracking-wider text-sm">
-              Khám phá thực đơn
+              Discover Menu
             </button>
           </motion.div>
         </div>
@@ -93,7 +93,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <FadeIn>
-              <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Đặt Chỗ Trực Tuyến</h4>
+              <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Online Reservation</h4>
               <h2 className="font-serif text-4xl md:text-5xl text-white">Book Your Table</h2>
             </FadeIn>
           </div>

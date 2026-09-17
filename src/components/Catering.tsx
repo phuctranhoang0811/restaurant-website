@@ -18,7 +18,7 @@ export function Catering() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <FadeIn>
-            <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Dịch Vụ Ăn Uống</h4>
+            <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Catering Services</h4>
             <h2 className="font-serif text-4xl md:text-5xl text-white mb-6">
               Impeccable Catering for Your Special Events
             </h2>

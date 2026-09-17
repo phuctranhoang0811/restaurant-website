@@ -15,26 +15,26 @@ export function BanquetSection() {
           
           <div className="space-y-6">
             <FadeIn>
-              <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-2">Cơ Sở Vật Chất</h4>
+              <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-2">Banquet Facilities</h4>
               <h2 className="font-serif text-4xl md:text-5xl text-white leading-tight">
-                Không Gian Tổ Chức Tiệc Đẳng Cấp
+                Exquisite Event Spaces
               </h2>
             </FadeIn>
             <FadeIn delay={0.2}>
               <p className="text-gray-400 text-lg">
-                Sở hữu hệ thống sảnh tiệc lộng lẫy cùng trang thiết bị âm thanh, ánh sáng hiện đại, chúng tôi sẵn sàng đáp ứng mọi quy mô sự kiện từ 50 đến 500 khách.
+                Featuring stunning banquet halls and state-of-the-art audiovisual equipment, we are ready to accommodate events of any scale, from 50 to 500 guests.
               </p>
             </FadeIn>
             <FadeIn delay={0.3}>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-center gap-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-primary" /> Sảnh Grand Ballroom tráng lệ
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary" /> Magnificent Grand Ballroom
                 </li>
                 <li className="flex items-center gap-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-primary" /> Phòng VIP Private Dining kín đáo
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary" /> Exclusive Private Dining VIP Rooms
                 </li>
                 <li className="flex items-center gap-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-primary" /> Không gian Garden Terrace ngoài trời
+                  <div className="w-1.5 h-1.5 rounded-full bg-primary" /> Beautiful Outdoor Garden Terrace
                 </li>
               </ul>
             </FadeIn>
