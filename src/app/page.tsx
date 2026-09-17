@@ -28,7 +28,7 @@ export default function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <h4 className="text-primary tracking-[0.3em] uppercase text-sm font-medium mb-6">Experience Perfection</h4>
-            <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-white mb-8 leading-tight">
+            <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl lg:text-8xl text-white mb-8 leading-tight">
               A Symphony of <br className="hidden md:block"/> Flavors
             </h1>
           </motion.div>
@@ -90,11 +90,11 @@ export default function Home() {
       {/* 9. Đặt chỗ trực tuyến (Online Reservation) */}
       <section id="reservation" className="py-32 relative bg-dark-100 overflow-hidden">
         <div className="absolute top-1/2 left-0 w-96 h-96 bg-primary/5 rounded-full blur-[100px] -translate-y-1/2 -translate-x-1/2" />
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <FadeIn>
               <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Online Reservation</h4>
-              <h2 className="font-serif text-4xl md:text-5xl text-white">Book Your Table</h2>
+              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-white">Book Your Table</h2>
             </FadeIn>
           </div>
           <FadeIn delay={0.2} direction="up">
@@ -110,7 +110,7 @@ export default function Home() {
       
       {/* Footer */}
       <footer className="bg-dark-300/20 py-12 border-t border-dark-300">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center text-gray-500 text-sm">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 text-center text-gray-500 text-sm">
           <p>© {new Date().getFullYear()} Luxury Dining. All rights reserved.</p>
         </div>
       </footer>

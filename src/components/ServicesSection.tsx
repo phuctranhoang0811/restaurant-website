@@ -6,7 +6,7 @@ import { Package, Globe } from "lucide-react";
 export function ServicesSection() {
   return (
     <section id="kits-hosting" className="py-24 bg-dark-200">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Menu Kits */}
           <FadeIn direction="right" className="bg-dark-100 p-10 rounded-3xl border border-dark-300 relative overflow-hidden group">

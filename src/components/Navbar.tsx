@@ -39,7 +39,7 @@ export function Navbar() {
             : "bg-transparent py-6 border-transparent"
         )}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 flex items-center justify-between">
           <a href="#" className="font-serif text-2xl text-white tracking-widest uppercase flex items-center gap-2">
              <span className="w-8 h-8 bg-primary text-dark-100 flex items-center justify-center rounded-full font-bold text-lg">L</span>
              Luxury

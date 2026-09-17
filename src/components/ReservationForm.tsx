@@ -139,8 +139,8 @@ export function ReservationForm() {
                       styles={{
                         caption: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" },
                         head_cell: { color: "#9ca3af", fontWeight: "normal", fontSize: "0.875rem" },
-                        cell: { padding: "0.25rem" },
-                        day: { width: "2.5rem", height: "2.5rem", borderRadius: "9999px", transition: "all 0.2s" },
+                        cell: { padding: "0.15rem" },
+                        day: { width: "2.25rem", height: "2.25rem", borderRadius: "9999px", transition: "all 0.2s" },
                       }}
                     />
                   </div>

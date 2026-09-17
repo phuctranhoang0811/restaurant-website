@@ -22,13 +22,13 @@ export function ContactModule() {
 
   return (
     <section className="py-24 bg-dark-100 text-gray-300">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="font-serif text-4xl md:text-5xl text-white mb-4"
+            className="font-serif text-3xl md:text-4xl lg:text-5xl text-white mb-4"
           >
             Visit Us
           </motion.h2>

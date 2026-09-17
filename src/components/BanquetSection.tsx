@@ -5,7 +5,7 @@ import { FadeIn } from "./FadeIn";
 export function BanquetSection() {
   return (
     <section id="banquet" className="py-24 bg-dark-200">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <FadeIn direction="right">
             <div className="aspect-[4/3] rounded-3xl overflow-hidden relative">
@@ -16,7 +16,7 @@ export function BanquetSection() {
           <div className="space-y-6">
             <FadeIn>
               <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-2">Banquet Facilities</h4>
-              <h2 className="font-serif text-4xl md:text-5xl text-white leading-tight">
+              <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
                 Exquisite Event Spaces
               </h2>
             </FadeIn>

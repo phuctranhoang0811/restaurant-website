@@ -8,7 +8,7 @@ export function AboutUs() {
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-dark-200/50 skew-x-12 translate-x-32" />
       
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1 relative">
             <FadeIn direction="right">
@@ -27,7 +27,7 @@ export function AboutUs() {
           <div className="order-1 lg:order-2 space-y-8">
             <FadeIn>
               <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold">About Us</h4>
-              <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl text-white mt-4 leading-tight">
+              <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl text-white mt-4 leading-tight">
                 A Legacy of <br/>Culinary Excellence
               </h2>
             </FadeIn>

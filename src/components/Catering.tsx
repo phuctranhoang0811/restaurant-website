@@ -15,11 +15,11 @@ const features = [
 export function Catering() {
   return (
     <section className="py-24 bg-dark-200">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <FadeIn>
             <h4 className="text-primary tracking-[0.2em] text-sm uppercase font-semibold mb-4">Catering Services</h4>
-            <h2 className="font-serif text-4xl md:text-5xl text-white mb-6">
+            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-white mb-6">
               Impeccable Catering for Your Special Events
             </h2>
             <p className="text-gray-400 text-lg">
