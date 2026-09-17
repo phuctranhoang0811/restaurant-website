@@ -6,15 +6,15 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { name: "Home", href: "#home" },
-  { name: "About Us", href: "#about" },
-  { name: "Menu", href: "#menu" },
-  { name: "Banquet Facilities", href: "#banquet" },
-  { name: "Gallery", href: "#gallery" },
-  { name: "Catering", href: "#catering" },
-  { name: "Menu Kits", href: "#kits" },
-  { name: "Hosting", href: "#hosting" },
-  { name: "Contact & Hours", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "About Us", href: "/about" },
+  { name: "Menu", href: "/menu" },
+  { name: "Banquet Facilities", href: "/banquet" },
+  { name: "Gallery", href: "/gallery" },
+  { name: "Catering", href: "/catering" },
+  { name: "Menu Kits", href: "/services#kits" },
+  { name: "Hosting", href: "/services#hosting" },
+  { name: "Contact & Hours", href: "/contact" },
 ];
 
 export function Navbar() {
@@ -58,7 +58,7 @@ export function Navbar() {
               ))}
             </nav>
             <a 
-              href="#reservation" 
+              href="/reservation" 
               className="bg-primary hover:bg-primary-dark text-dark-100 px-6 py-2.5 rounded-full text-sm font-bold uppercase tracking-wider transition-transform hover:scale-105 active:scale-95"
             >
               Reservation
@@ -104,7 +104,7 @@ export function Navbar() {
               </nav>
               <div className="mt-12">
                  <a 
-                   href="#reservation" 
+                   href="/reservation" 
                    onClick={() => setIsOpen(false)}
                    className="block text-center bg-primary text-dark-100 py-4 rounded-xl font-bold uppercase tracking-wider"
                  >
